@@ -1,9 +1,10 @@
 package streams;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ApartmentRental {
-    private List<Apartment> apartmentsList;
+    private List<Apartment> apartmentsList=new ArrayList<>();
 
     public void addApartment(Apartment apartment){
         if(apartment==null){
